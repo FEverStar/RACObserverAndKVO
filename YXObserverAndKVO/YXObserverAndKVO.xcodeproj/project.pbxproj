@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C73B5802191BC8B001ED6A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C73B57F2191BC8B001ED6A0 /* AppDelegate.m */; };
+		3C73B5832191BC8B001ED6A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C73B5822191BC8B001ED6A0 /* ViewController.m */; };
+		3C73B5862191BC8B001ED6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C73B5842191BC8B001ED6A0 /* Main.storyboard */; };
+		3C73B5892191BC8B001ED6A0 /* YXObserverAndKVO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C73B5872191BC8B001ED6A0 /* YXObserverAndKVO.xcdatamodeld */; };
+		3C73B58B2191BC8C001ED6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C73B58A2191BC8C001ED6A0 /* Assets.xcassets */; };
+		3C73B58E2191BC8C001ED6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C73B58C2191BC8C001ED6A0 /* LaunchScreen.storyboard */; };
+		3C73B5912191BC8C001ED6A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C73B5902191BC8C001ED6A0 /* main.m */; };
+		3C73B59B2191BC8C001ED6A0 /* YXObserverAndKVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C73B59A2191BC8C001ED6A0 /* YXObserverAndKVOTests.m */; };
+		3C73B5A62191BC8C001ED6A0 /* YXObserverAndKVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C73B5A52191BC8C001ED6A0 /* YXObserverAndKVOUITests.m */; };
+		3CE55D2621D4C27D00121007 /* NSObject+LYVKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE55D2221D4C27D00121007 /* NSObject+LYVKVO.m */; };
+		3CE55D2721D4C27D00121007 /* NSNotificationCenter+LYXObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE55D2421D4C27D00121007 /* NSNotificationCenter+LYXObserver.m */; };
+		3D067BDE9E2D33268031F9E0 /* libPods-YXObserverAndKVO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC9F30AC1A6724FED150367 /* libPods-YXObserverAndKVO.a */; };
+		4552A01EE4258080EB105021 /* libPods-YXObserverAndKVOTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 647BA67EB76FAD7F1AD6A279 /* libPods-YXObserverAndKVOTests.a */; };
+		7A2DF5720F8F4343906F2585 /* libPods-YXObserverAndKVOUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF58A0A2145511BD6D7B1B2 /* libPods-YXObserverAndKVOUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C73B5972191BC8C001ED6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C73B5732191BC8B001ED6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C73B57A2191BC8B001ED6A0;
+			remoteInfo = YXObserverAndKVO;
+		};
+		3C73B5A22191BC8C001ED6A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C73B5732191BC8B001ED6A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C73B57A2191BC8B001ED6A0;
+			remoteInfo = YXObserverAndKVO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C73B57B2191BC8B001ED6A0 /* YXObserverAndKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXObserverAndKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C73B57E2191BC8B001ED6A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C73B57F2191BC8B001ED6A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C73B5812191BC8B001ED6A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C73B5822191BC8B001ED6A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C73B5852191BC8B001ED6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C73B5882191BC8B001ED6A0 /* YXObserverAndKVO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YXObserverAndKVO.xcdatamodel; sourceTree = "<group>"; };
+		3C73B58A2191BC8C001ED6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C73B58D2191BC8C001ED6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C73B58F2191BC8C001ED6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C73B5902191BC8C001ED6A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C73B5962191BC8C001ED6A0 /* YXObserverAndKVOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXObserverAndKVOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C73B59A2191BC8C001ED6A0 /* YXObserverAndKVOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXObserverAndKVOTests.m; sourceTree = "<group>"; };
+		3C73B59C2191BC8C001ED6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C73B5A12191BC8C001ED6A0 /* YXObserverAndKVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXObserverAndKVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C73B5A52191BC8C001ED6A0 /* YXObserverAndKVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXObserverAndKVOUITests.m; sourceTree = "<group>"; };
+		3C73B5A72191BC8C001ED6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE55D2221D4C27D00121007 /* NSObject+LYVKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYVKVO.m"; sourceTree = "<group>"; };
+		3CE55D2321D4C27D00121007 /* NSNotificationCenter+LYXObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+LYXObserver.h"; sourceTree = "<group>"; };
+		3CE55D2421D4C27D00121007 /* NSNotificationCenter+LYXObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+LYXObserver.m"; sourceTree = "<group>"; };
+		3CE55D2521D4C27D00121007 /* NSObject+LYXKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYXKVO.h"; sourceTree = "<group>"; };
+		3EF58A0A2145511BD6D7B1B2 /* libPods-YXObserverAndKVOUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXObserverAndKVOUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE722AC7B42A75DAF80C7A5 /* Pods-YXObserverAndKVOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXObserverAndKVOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXObserverAndKVOTests/Pods-YXObserverAndKVOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		647BA67EB76FAD7F1AD6A279 /* libPods-YXObserverAndKVOTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXObserverAndKVOTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C40D1D5763A5EB8358C718 /* Pods-YXObserverAndKVOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXObserverAndKVOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXObserverAndKVOTests/Pods-YXObserverAndKVOTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AC9F30AC1A6724FED150367 /* libPods-YXObserverAndKVO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXObserverAndKVO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6404CBC2ECDB22CD1789EF /* Pods-YXObserverAndKVO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXObserverAndKVO.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXObserverAndKVO/Pods-YXObserverAndKVO.release.xcconfig"; sourceTree = "<group>"; };
+		E4FFF86622A8E648BED31319 /* Pods-YXObserverAndKVOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXObserverAndKVOUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXObserverAndKVOUITests/Pods-YXObserverAndKVOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9C523A98516320F2BB0BC30 /* Pods-YXObserverAndKVOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXObserverAndKVOUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXObserverAndKVOUITests/Pods-YXObserverAndKVOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7E7FBD96A101DB0322A5C7 /* Pods-YXObserverAndKVO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXObserverAndKVO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXObserverAndKVO/Pods-YXObserverAndKVO.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C73B5782191BC8B001ED6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D067BDE9E2D33268031F9E0 /* libPods-YXObserverAndKVO.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C73B5932191BC8C001ED6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4552A01EE4258080EB105021 /* libPods-YXObserverAndKVOTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C73B59E2191BC8C001ED6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2DF5720F8F4343906F2585 /* libPods-YXObserverAndKVOUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C73B5722191BC8B001ED6A0 = {
+			isa = PBXGroup;
+			children = (
+				3C73B57D2191BC8B001ED6A0 /* YXObserverAndKVO */,
+				3C73B5992191BC8C001ED6A0 /* YXObserverAndKVOTests */,
+				3C73B5A42191BC8C001ED6A0 /* YXObserverAndKVOUITests */,
+				3C73B57C2191BC8B001ED6A0 /* Products */,
+				54AEC093AD33514F121EA9F1 /* Pods */,
+				6084BB2AA1E224AA18B063B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C73B57C2191BC8B001ED6A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C73B57B2191BC8B001ED6A0 /* YXObserverAndKVO.app */,
+				3C73B5962191BC8C001ED6A0 /* YXObserverAndKVOTests.xctest */,
+				3C73B5A12191BC8C001ED6A0 /* YXObserverAndKVOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C73B57D2191BC8B001ED6A0 /* YXObserverAndKVO */ = {
+			isa = PBXGroup;
+			children = (
+				3CE55D2121D4C27D00121007 /* category */,
+				3C73B57E2191BC8B001ED6A0 /* AppDelegate.h */,
+				3C73B57F2191BC8B001ED6A0 /* AppDelegate.m */,
+				3C73B5812191BC8B001ED6A0 /* ViewController.h */,
+				3C73B5822191BC8B001ED6A0 /* ViewController.m */,
+				3C73B5842191BC8B001ED6A0 /* Main.storyboard */,
+				3C73B58A2191BC8C001ED6A0 /* Assets.xcassets */,
+				3C73B58C2191BC8C001ED6A0 /* LaunchScreen.storyboard */,
+				3C73B58F2191BC8C001ED6A0 /* Info.plist */,
+				3C73B5902191BC8C001ED6A0 /* main.m */,
+				3C73B5872191BC8B001ED6A0 /* YXObserverAndKVO.xcdatamodeld */,
+			);
+			path = YXObserverAndKVO;
+			sourceTree = "<group>";
+		};
+		3C73B5992191BC8C001ED6A0 /* YXObserverAndKVOTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C73B59A2191BC8C001ED6A0 /* YXObserverAndKVOTests.m */,
+				3C73B59C2191BC8C001ED6A0 /* Info.plist */,
+			);
+			path = YXObserverAndKVOTests;
+			sourceTree = "<group>";
+		};
+		3C73B5A42191BC8C001ED6A0 /* YXObserverAndKVOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C73B5A52191BC8C001ED6A0 /* YXObserverAndKVOUITests.m */,
+				3C73B5A72191BC8C001ED6A0 /* Info.plist */,
+			);
+			path = YXObserverAndKVOUITests;
+			sourceTree = "<group>";
+		};
+		3CE55D2121D4C27D00121007 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				3CE55D2521D4C27D00121007 /* NSObject+LYXKVO.h */,
+				3CE55D2221D4C27D00121007 /* NSObject+LYVKVO.m */,
+				3CE55D2321D4C27D00121007 /* NSNotificationCenter+LYXObserver.h */,
+				3CE55D2421D4C27D00121007 /* NSNotificationCenter+LYXObserver.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		54AEC093AD33514F121EA9F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E7FBD96A101DB0322A5C7 /* Pods-YXObserverAndKVO.debug.xcconfig */,
+				CD6404CBC2ECDB22CD1789EF /* Pods-YXObserverAndKVO.release.xcconfig */,
+				4AE722AC7B42A75DAF80C7A5 /* Pods-YXObserverAndKVOTests.debug.xcconfig */,
+				65C40D1D5763A5EB8358C718 /* Pods-YXObserverAndKVOTests.release.xcconfig */,
+				F9C523A98516320F2BB0BC30 /* Pods-YXObserverAndKVOUITests.debug.xcconfig */,
+				E4FFF86622A8E648BED31319 /* Pods-YXObserverAndKVOUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6084BB2AA1E224AA18B063B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9F30AC1A6724FED150367 /* libPods-YXObserverAndKVO.a */,
+				647BA67EB76FAD7F1AD6A279 /* libPods-YXObserverAndKVOTests.a */,
+				3EF58A0A2145511BD6D7B1B2 /* libPods-YXObserverAndKVOUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C73B57A2191BC8B001ED6A0 /* YXObserverAndKVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C73B5AA2191BC8C001ED6A0 /* Build configuration list for PBXNativeTarget "YXObserverAndKVO" */;
+			buildPhases = (
+				499ED17AAF2328BFDEE2932F /* [CP] Check Pods Manifest.lock */,
+				3C73B5772191BC8B001ED6A0 /* Sources */,
+				3C73B5782191BC8B001ED6A0 /* Frameworks */,
+				3C73B5792191BC8B001ED6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXObserverAndKVO;
+			productName = YXObserverAndKVO;
+			productReference = 3C73B57B2191BC8B001ED6A0 /* YXObserverAndKVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C73B5952191BC8C001ED6A0 /* YXObserverAndKVOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C73B5AD2191BC8C001ED6A0 /* Build configuration list for PBXNativeTarget "YXObserverAndKVOTests" */;
+			buildPhases = (
+				4AC5EE37EC715390F87FD0A3 /* [CP] Check Pods Manifest.lock */,
+				3C73B5922191BC8C001ED6A0 /* Sources */,
+				3C73B5932191BC8C001ED6A0 /* Frameworks */,
+				3C73B5942191BC8C001ED6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C73B5982191BC8C001ED6A0 /* PBXTargetDependency */,
+			);
+			name = YXObserverAndKVOTests;
+			productName = YXObserverAndKVOTests;
+			productReference = 3C73B5962191BC8C001ED6A0 /* YXObserverAndKVOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C73B5A02191BC8C001ED6A0 /* YXObserverAndKVOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C73B5B02191BC8C001ED6A0 /* Build configuration list for PBXNativeTarget "YXObserverAndKVOUITests" */;
+			buildPhases = (
+				6A1BD2F43ACA5F55CCEF24A8 /* [CP] Check Pods Manifest.lock */,
+				3C73B59D2191BC8C001ED6A0 /* Sources */,
+				3C73B59E2191BC8C001ED6A0 /* Frameworks */,
+				3C73B59F2191BC8C001ED6A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C73B5A32191BC8C001ED6A0 /* PBXTargetDependency */,
+			);
+			name = YXObserverAndKVOUITests;
+			productName = YXObserverAndKVOUITests;
+			productReference = 3C73B5A12191BC8C001ED6A0 /* YXObserverAndKVOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C73B5732191BC8B001ED6A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = LYX;
+				TargetAttributes = {
+					3C73B57A2191BC8B001ED6A0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3C73B5952191BC8C001ED6A0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3C73B57A2191BC8B001ED6A0;
+					};
+					3C73B5A02191BC8C001ED6A0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3C73B57A2191BC8B001ED6A0;
+					};
+				};
+			};
+			buildConfigurationList = 3C73B5762191BC8B001ED6A0 /* Build configuration list for PBXProject "YXObserverAndKVO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C73B5722191BC8B001ED6A0;
+			productRefGroup = 3C73B57C2191BC8B001ED6A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C73B57A2191BC8B001ED6A0 /* YXObserverAndKVO */,
+				3C73B5952191BC8C001ED6A0 /* YXObserverAndKVOTests */,
+				3C73B5A02191BC8C001ED6A0 /* YXObserverAndKVOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C73B5792191BC8B001ED6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C73B58E2191BC8C001ED6A0 /* LaunchScreen.storyboard in Resources */,
+				3C73B58B2191BC8C001ED6A0 /* Assets.xcassets in Resources */,
+				3C73B5862191BC8B001ED6A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C73B5942191BC8C001ED6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C73B59F2191BC8C001ED6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		499ED17AAF2328BFDEE2932F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXObserverAndKVO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC5EE37EC715390F87FD0A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXObserverAndKVOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A1BD2F43ACA5F55CCEF24A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXObserverAndKVOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C73B5772191BC8B001ED6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE55D2721D4C27D00121007 /* NSNotificationCenter+LYXObserver.m in Sources */,
+				3C73B5892191BC8B001ED6A0 /* YXObserverAndKVO.xcdatamodeld in Sources */,
+				3C73B5832191BC8B001ED6A0 /* ViewController.m in Sources */,
+				3CE55D2621D4C27D00121007 /* NSObject+LYVKVO.m in Sources */,
+				3C73B5912191BC8C001ED6A0 /* main.m in Sources */,
+				3C73B5802191BC8B001ED6A0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C73B5922191BC8C001ED6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C73B59B2191BC8C001ED6A0 /* YXObserverAndKVOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C73B59D2191BC8C001ED6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C73B5A62191BC8C001ED6A0 /* YXObserverAndKVOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C73B5982191BC8C001ED6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C73B57A2191BC8B001ED6A0 /* YXObserverAndKVO */;
+			targetProxy = 3C73B5972191BC8C001ED6A0 /* PBXContainerItemProxy */;
+		};
+		3C73B5A32191BC8C001ED6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C73B57A2191BC8B001ED6A0 /* YXObserverAndKVO */;
+			targetProxy = 3C73B5A22191BC8C001ED6A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C73B5842191BC8B001ED6A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C73B5852191BC8B001ED6A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C73B58C2191BC8C001ED6A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C73B58D2191BC8C001ED6A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C73B5A82191BC8C001ED6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C73B5A92191BC8C001ED6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C73B5AB2191BC8C001ED6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7E7FBD96A101DB0322A5C7 /* Pods-YXObserverAndKVO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL54F4LJG7;
+				INFOPLIST_FILE = YXObserverAndKVO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vv.YXObserverAndKVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C73B5AC2191BC8C001ED6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6404CBC2ECDB22CD1789EF /* Pods-YXObserverAndKVO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL54F4LJG7;
+				INFOPLIST_FILE = YXObserverAndKVO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vv.YXObserverAndKVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C73B5AE2191BC8C001ED6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE722AC7B42A75DAF80C7A5 /* Pods-YXObserverAndKVOTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL54F4LJG7;
+				INFOPLIST_FILE = YXObserverAndKVOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vv.YXObserverAndKVOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXObserverAndKVO.app/YXObserverAndKVO";
+			};
+			name = Debug;
+		};
+		3C73B5AF2191BC8C001ED6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C40D1D5763A5EB8358C718 /* Pods-YXObserverAndKVOTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL54F4LJG7;
+				INFOPLIST_FILE = YXObserverAndKVOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vv.YXObserverAndKVOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXObserverAndKVO.app/YXObserverAndKVO";
+			};
+			name = Release;
+		};
+		3C73B5B12191BC8C001ED6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C523A98516320F2BB0BC30 /* Pods-YXObserverAndKVOUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL54F4LJG7;
+				INFOPLIST_FILE = YXObserverAndKVOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vv.YXObserverAndKVOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YXObserverAndKVO;
+			};
+			name = Debug;
+		};
+		3C73B5B22191BC8C001ED6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FFF86622A8E648BED31319 /* Pods-YXObserverAndKVOUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PL54F4LJG7;
+				INFOPLIST_FILE = YXObserverAndKVOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vv.YXObserverAndKVOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YXObserverAndKVO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C73B5762191BC8B001ED6A0 /* Build configuration list for PBXProject "YXObserverAndKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C73B5A82191BC8C001ED6A0 /* Debug */,
+				3C73B5A92191BC8C001ED6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C73B5AA2191BC8C001ED6A0 /* Build configuration list for PBXNativeTarget "YXObserverAndKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C73B5AB2191BC8C001ED6A0 /* Debug */,
+				3C73B5AC2191BC8C001ED6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C73B5AD2191BC8C001ED6A0 /* Build configuration list for PBXNativeTarget "YXObserverAndKVOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C73B5AE2191BC8C001ED6A0 /* Debug */,
+				3C73B5AF2191BC8C001ED6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C73B5B02191BC8C001ED6A0 /* Build configuration list for PBXNativeTarget "YXObserverAndKVOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C73B5B12191BC8C001ED6A0 /* Debug */,
+				3C73B5B22191BC8C001ED6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C73B5872191BC8B001ED6A0 /* YXObserverAndKVO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C73B5882191BC8B001ED6A0 /* YXObserverAndKVO.xcdatamodel */,
+			);
+			currentVersion = 3C73B5882191BC8B001ED6A0 /* YXObserverAndKVO.xcdatamodel */;
+			path = YXObserverAndKVO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C73B5732191BC8B001ED6A0 /* Project object */;
+}
